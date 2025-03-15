@@ -3,7 +3,9 @@ import React from 'react'
 const Section5 = () => {
   return (
     
-    <div className="p-10 bg-gray-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
+    <div className="p-3">
+      <h1 className='text-center text-4xl font-[Big_Shoulders] -tracking-tighter font-semibold p-5'>Our Solar Projects in Action</h1>
+      <div className="p-10 bg-gray-200 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
         {["thirdImg.jpeg", "fourthImg.jpeg", "firstImg.jpeg", "secondImg.jpeg"].map((img, index) => (
           <div key={index} className="relative group">
             <img
@@ -16,6 +18,7 @@ const Section5 = () => {
             </div>
           </div>
         ))}
+      </div>
       </div>
   )
 }
