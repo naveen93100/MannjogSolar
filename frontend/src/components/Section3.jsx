@@ -3,7 +3,7 @@ import React from 'react'
 const Section3 = () => {
     return (
         <>
-            <div className=' my-2 py-2 space-y-4 text-white font-["Big_Shoulders"]  mt-1 px-7 overflow-hidden bg-gray-800'>
+            <div className=' my-2 py-2 space-y-4 text-gray-700 font-["Big_Shoulders"]  mt-1 px-7 overflow-hidden bg-gray-200'>
                 <h1 className='text-3xl md:text-5xl py-3 font-bold underline'>Who We Are?</h1>
 
                 <div className='py-4 px-3 rounded-2xl '>
